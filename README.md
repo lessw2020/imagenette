@@ -85,7 +85,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 128 | 20 | 84.52 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
 | 192 | 20 | 85.76 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 192 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
 | 256 | 20 | 87.28 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 256 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
-| 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
+| 128 | 80 | 87.92 | [link](https://github.com/lessw2020/RangerQH-Testing) | `--epochs 80 --bs 64 --lr .0042 --cutmix --arch res2net50 --woof 1` | 1 |
 | 192 | 80 | 87.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 256 | 80 | 89.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 128 | 400 | 87.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 -mixup 0.2 --arch xresnet50 --woof 1` | 4 |
